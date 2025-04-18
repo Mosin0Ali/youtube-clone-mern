@@ -1,0 +1,27 @@
+# Ignore node_modules in all folders
+**/node_modules/
+
+# Ignore environment variables
+.env
+**/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: build output if you use it
+dist/
+build/
+
+# Optional: local IDE/editor configs
+.vscode/
+.idea/
+
+server/uploads/
+
+client/src/firebase.js
